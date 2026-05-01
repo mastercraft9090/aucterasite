@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Auctera Capital Partners LLC</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="logo">
+      <div class="logo-wordmark">AUCTERA</div>
+      <div class="logo-sub">Capital Partners LLC</div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger">&#9776;</button>
+  </div>
+</nav>
+
+<section class="page-banner">
+  <div class="container">
+    <div class="section-tag">Contact</div>
+    <h1 class="page-title">Start the Conversation</h1>
+    <p class="page-sub">Tell us about your situation. We will respond within one business day.</p>
+  </div>
+</section>
+
+<section class="contact-section">
+  <div class="container contact-layout">
+    <div class="contact-left">
+      <h2>How Can We Help?</h2>
+      <p>We work with real estate investors, developers, operators, and management companies at every stage. Whether you need a full consultancy engagement or a focused advisory session — reach out and let's talk.</p>
+      <div class="contact-details">
+        <div class="cd-item">
+          <div class="cd-label">Location</div>
+          <div class="cd-value">Texas, United States</div>
+        </div>
+        <div class="cd-item">
+          <div class="cd-label">Email</div>
+          <div class="cd-value">info@aucterapartners.com</div>
+        </div>
+        <div class="cd-item">
+          <div class="cd-label">Response Time</div>
+          <div class="cd-value">Within 1 business day</div>
+        </div>
+        <div class="cd-item">
+          <div class="cd-label">Confidentiality</div>
+          <div class="cd-value">All inquiries strictly confidential</div>
+        </div>
+      </div>
+    </div>
+    <div class="contact-right">
+      <form id="contactForm" class="contact-form">
+        <div id="formSuccess" class="form-success" style="display:none">
+          <div class="success-check">✓</div>
+          <h3>Message Received</h3>
+          <p>Thank you for contacting Auctera Capital Partners. We will be in touch within one business day.</p>
+        </div>
+        <div id="formFields">
+          <div class="form-row">
+            <div class="form-group">
+              <label>First Name *</label>
+              <input type="text" name="firstName" required placeholder="First name">
+            </div>
+            <div class="form-group">
+              <label>Last Name *</label>
+              <input type="text" name="lastName" required placeholder="Last name">
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Email *</label>
+            <input type="email" name="email" required placeholder="your@email.com">
+          </div>
+          <div class="form-group">
+            <label>Phone</label>
+            <input type="tel" name="phone" placeholder="(555) 000-0000">
+          </div>
+          <div class="form-group">
+            <label>Company</label>
+            <input type="text" name="company" placeholder="Your company name">
+          </div>
+          <div class="form-group">
+            <label>Service Interest *</label>
+            <select name="service" required>
+              <option value="">Select a service...</option>
+              <option>Real Estate Advisory</option>
+              <option>Asset Management</option>
+              <option>Portfolio Strategy</option>
+              <option>Operational Consulting</option>
+              <option>Market Intelligence</option>
+              <option>Investor Relations</option>
+              <option>General Inquiry</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Tell Us About Your Situation *</label>
+            <textarea name="message" rows="5" required placeholder="Describe your goals, challenges, or the opportunity you are evaluating..."></textarea>
+          </div>
+          <button type="submit" class="btn-primary btn-full" id="submitBtn">
+            <span id="btnText">Send Message</span>
+          </button>
+          <p class="form-note">Your information is kept strictly confidential and will only be used to respond to your inquiry.</p>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <div class="footer-wordmark">AUCTERA</div>
+      <div class="footer-tagline">Capital Partners LLC</div>
+    </div>
+    <div class="footer-nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2025 Auctera Capital Partners LLC. All rights reserved.</span>
+      <span>Texas, United States</span>
+    </div>
+  </div>
+</footer>
+<script src="main.js"></script>
+</body>
+</html>
